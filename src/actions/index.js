@@ -12,6 +12,15 @@ export const deleteTodo=(id)=>({
     id
 })
 
+
+const PUT_TODO='DELETE_TODO'
+export const PUTTodo=(id)=>({
+    type:'DELETE_TODO',
+    id
+})
+
+
+
 // const DELETE_TODO='DELETE_TODO'
 // export const deleteTodo=(id)=>{
    // return{
